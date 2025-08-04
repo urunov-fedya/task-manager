@@ -5,7 +5,7 @@ import { Header, Sidebar } from '@widgets'
 <template>
   <section>
     <Header />
-    <div class="flex min-h-dvh gap-5">
+    <div class="flex min-h-dvh gap-5 md:flex-row flex-col">
       <Sidebar />
       <main class="flex-1 p-5 bg-gray-100 rounded-lg">
         <router-view v-slot="{ Component }">
